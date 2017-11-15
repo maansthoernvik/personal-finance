@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- INFO: Important that inline list item layouts do not let their children be focusable. -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="48dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/expense_list_amount"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        style="@style/expense_list_item_amount"/>
+
+    <TextView
+        android:id="@+id/expense_list_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="4dp"
+        android:paddingLeft="8dp"
+        style="@style/expense_list_item_timestamp"/>
+
+    <TextView
+        android:id="@+id/expense_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/expense_list_amount"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        style="@style/expense_list_item_name"/>
+
+    <TextView
+        android:id="@+id/expense_list_category"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        style="@style/expense_list_item_category"/>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/MTH/AndroidStudioProjects/expensecontrol/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/MTH/.android/build-cache/3435f46020bb21a1ec953dbe1e0bfa7987272c67/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/MTH/AndroidStudioProjects/expensecontrol/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/MTH/.android/build-cache/3435f46020bb21a1ec953dbe1e0bfa7987272c67/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/MTH/AndroidStudioProjects/expensecontrol/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/MTH/.android/build-cache/3435f46020bb21a1ec953dbe1e0bfa7987272c67/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/MTH/AndroidStudioProjects/expensecontrol/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/MTH/.android/build-cache/3435f46020bb21a1ec953dbe1e0bfa7987272c67/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

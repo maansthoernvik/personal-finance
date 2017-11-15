@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/MTH/AndroidStudioProjects/expensecontrol/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/MTH/.android/build-cache/3435f46020bb21a1ec953dbe1e0bfa7987272c67/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/MTH/AndroidStudioProjects/expensecontrol/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/MTH/.android/build-cache/3435f46020bb21a1ec953dbe1e0bfa7987272c67/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/loans"
+            style="@style/expenses_list_header"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp">
+
+            <TextView
+                android:id="@+id/loan_list_name_column"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/input_name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/loan_list_name_column"
+                android:text="@string/input_amount"/>
+
+            <TextView
+                android:id="@+id/loan_list_interest_column"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/loan_list_amortization_column"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/input_interest"/>
+
+            <TextView
+                android:id="@+id/loan_list_amortization_column"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingRight="8dp"
+                android:text="@string/input_amortization"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/loans_view_list_header_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/loans_column_headers"
+            android:background="@color/colorPrimary"/>
+
+        <ListView
+            android:id="@+id/loans_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/loans_view_list_header_separator"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp">
+        </ListView>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/loans_add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="bottom"
+        android:layout_margin="24dp"
+        android:clickable="true"
+        android:src="@drawable/ic_add_white_48dp"/>
+
+</RelativeLayout>

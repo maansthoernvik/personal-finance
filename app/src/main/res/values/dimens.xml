@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="statistics_table_column">0dp</dimen>
+    <dimen name="expense_detail_table_row">8dp</dimen>
+</resources>

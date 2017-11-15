@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"
+            android:weightSum="4"
+            android:layout_marginRight="@dimen/expense_detail_table_row">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:text="@string/expense_detail_name"/>
+            <EditText
+                android:id="@+id/expense_detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"
+            android:weightSum="4"
+            android:layout_marginRight="@dimen/expense_detail_table_row">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:text="@string/expense_detail_category"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/expense_detail_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:completionThreshold="1"
+                android:inputType="text"
+                android:layout_weight="3"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"
+            android:weightSum="4"
+            android:layout_marginRight="@dimen/expense_detail_table_row">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:text="@string/expense_detail_amount" />
+            <EditText
+                android:id="@+id/expense_detail_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_weight="3"
+                android:maxLength="9" />
+        </TableRow>
+
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/expense_detail_table_row">
+            <CheckBox
+                android:id="@+id/expense_detail_recurring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/input_recurring" />
+            <Button
+                android:id="@+id/expense_detail_timestamp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                style="?android:attr/buttonBarButtonStyle" />
+        </TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:textStyle="italic"
+            android:text="@string/expense_detail_picture_description"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/expense_detail_take_picture"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ic_photo_camera_black_48dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:text="">
+            </Button>
+            <Button
+                android:id="@+id/expense_detail_remove_picture"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ic_close_black_48dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:text="">
+            </Button>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/expense_detail_actual_picture"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_margin="16dp"
+            android:contentDescription="@string/expense_picture_description" />
+
+    </TableLayout>
+</ScrollView>

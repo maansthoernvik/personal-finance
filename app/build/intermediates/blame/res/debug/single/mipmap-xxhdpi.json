@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/MTH/AndroidStudioProjects/expensecontrol/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/Users/MTH/AndroidStudioProjects/expensecontrol/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/MTH/AndroidStudioProjects/expensecontrol/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/MTH/AndroidStudioProjects/expensecontrol/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

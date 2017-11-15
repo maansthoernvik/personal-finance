@@ -1,0 +1,7 @@
+#Sat Oct 21 16:51:36 CEST 2017
+base.0=/Users/MTH/AndroidStudioProjects/expensecontrol/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bb5dcd12525b844ae65ae67de40d42085bbf1425
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/MTH/AndroidStudioProjects/expensecontrol/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f1f18b682b1e107f0e6ec8da564f95baf88303ed/classes.dex
+base.1=/Users/MTH/AndroidStudioProjects/expensecontrol/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f1f18b682b1e107f0e6ec8da564f95baf88303ed
+file.0=/Users/MTH/AndroidStudioProjects/expensecontrol/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bb5dcd12525b844ae65ae67de40d42085bbf1425/classes.dex

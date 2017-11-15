@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Expense Control</string>
+
+    <string name="drawer_open">Open navigation menu</string>
+    <string name="drawer_close">Close navigation menu</string>
+
+    <string name="home">Home</string>
+    <string name="expenses">Expenses</string>
+    <string name="loans">Loans</string>
+    <string name="statistics">Statistics</string>
+
+    <string name="one_time_expense_list_label">Expenses</string>
+    <string name="recurring_expense_list_label">Bills</string>
+    <string name="expense_picture_description">Picture of expense</string>
+
+    <string name="button_cancel">Cancel</string>
+    <string name="button_save">Save</string>
+
+    <string name="input_name">Name</string>
+    <string name="input_amount">Amount</string>
+    <string name="input_timestamp">Timestamp</string>
+    <string name="input_category">Category</string>
+    <string name="input_recurring">Is this a bill?</string>
+    <string name="input_amortization">Amortization</string>
+    <string name="input_interest">Interest</string>
+
+    <string name="custom_action_bar_close">Close</string>
+    <string name="custom_action_bar_done">Done</string>
+    <string name="custom_action_bar_delete">Delete</string>
+    <string name="custom_date_dialog_title">Choose time and date</string>
+    <string name="dialog_loan_payment_amount">Payment amount</string>
+
+    <string name="loading">Loading...</string>
+    <string name="loading_not_yet_started">Preparing...</string>
+    <string name="loading_completed">Finished!</string>
+    <string name="loading_expenses_completed">Expenses prepared...</string>
+    <string name="loading_loans_completed">Loans prepared...</string>
+
+    <string name="new_entry_alert_dialog_title">What would you like to add?</string>
+    <string name="new_entry_alert_dialog_message">Click below on the thing you want to add, or press
+        cancel if this was just an accident.</string>
+
+    <string name="date">Date</string>
+    <string name="total">Total</string>
+    <string name="bills">Bills</string>
+    <string name="recent_expenses">Recent Expenses</string>
+
+    <string name="statistics_show_all">Total</string>
+    <string name="statistics_show_expenses">Expenses</string>
+    <string name="statistics_show_bills">Bills</string>
+    <string name="statistics_show_loans">Loans</string>
+
+    <string name="statistics_back_button">Past</string>
+    <string name="statistics_forward_button">Future</string>
+    <string name="clear_history">Clear history</string>
+    <string name="dialog_statistics_clear_history_message">
+        Are you sure? This will erase all of you precious data, at least everything up until the
+        current month.
+    </string>
+    <string name="expense_detail_name">Name</string>
+    <string name="expense_detail_amount">Amount</string>
+    <string name="expense_detail_category">Category</string>
+    <string name="expense_detail_picture_description">
+        You can add pictures to the expense, maybe something to remind you of what you bought or
+        just the receipt, totally your call. Make sure you take the picture horizontally though,
+        that is not your call.</string>
+
+    <string name="loan_detail_name">Name</string>
+    <string name="loan_detail_amount">Amount</string>
+    <string name="loan_detail_interest">Interest (%)</string>
+    <string name="loan_detail_amortization">Amortization</string>
+    <string name="loan_make_payment">Make payment</string>
+    <string name="loan_detail_make_payment_layout_message">
+        Click below if you wish to make a payment for this loan. Payments deduct a sum from the loan
+        and saves a record of the payment into the statistics.</string>
+    <string name="dialog_loan_make_payment_message">Enter a sum of the total amount that should be
+        taken off this loan and click OK to save the changes. Note that the changes will be saved
+        the instant that OK is pressed.</string>
+
+    <string name="overview_total_explanation">Total amount spent this month</string>
+
+    <string-array name="nav_drawer_options">
+        <item>@string/home</item>
+        <item>@string/expenses</item>
+        <item>@string/loans</item>
+        <item>@string/statistics</item>
+    </string-array>
+
+    <string name="months">Months</string>
+    <string name="january">Jan</string>
+    <string name="february">Feb</string>
+    <string name="march">Mar</string>
+    <string name="april">Apr</string>
+    <string name="may">May</string>
+    <string name="june">Jun</string>
+    <string name="july">Jul</string>
+    <string name="august">Aug</string>
+    <string name="september">Sep</string>
+    <string name="october">Oct</string>
+    <string name="november">Nov</string>
+    <string name="december">Dec</string>
+
+    <string-array name="statistics_months">
+        <item>@string/january</item>
+        <item>@string/february</item>
+        <item>@string/march</item>
+        <item>@string/april</item>
+        <item>@string/may</item>
+        <item>@string/june</item>
+        <item>@string/july</item>
+        <item>@string/august</item>
+        <item>@string/september</item>
+        <item>@string/october</item>
+        <item>@string/november</item>
+        <item>@string/december</item>
+    </string-array>
+
+    <string-array name="statistics_headers">
+        <item>@string/date</item>
+        <item>@string/total</item>
+        <item>@string/expenses</item>
+        <item>@string/bills</item>
+        <item>@string/loans</item>
+    </string-array>
+
+</resources>
